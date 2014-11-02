@@ -1,4 +1,3 @@
-@javascript
 Feature: Search
     In order to find articles
     As a website visitor
@@ -10,7 +9,6 @@ Feature: Search
           And I press "go"
           And I follow "Behavior-driven development"
          Then I should see "History"
-         Then I should see "T Day"
           And I should see "Principles of BDD"
           And I should see "Story versus specification"
 
